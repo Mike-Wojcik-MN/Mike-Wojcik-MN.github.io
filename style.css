@@ -1,6 +1,6 @@
  body {
   margin-left: 210px;
-  padding: 1px 10px;
+  padding: 30px 30px 20px;
   background: #7BBCC6;
   font-family: calibri, arial, helvetica;
 }
@@ -9,6 +9,13 @@ h1 {
   font-family: helvetica-bold, Courier New, calibri;
   font-size: 150%;
 }
+  .roundel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    padding: 20px 20px 10px;
+  }
 .header {
   color: white;
   text-shadow: 1px 3px 10px #000000;
@@ -63,7 +70,32 @@ aside {
   left: 0;
   background-color: #7BBCC6;
   overflow-x: hidden;
-  padding-top: 8px;
+  padding-top: 300px;
   padding-left: 10px;
   text-indent: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
