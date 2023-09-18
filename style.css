@@ -5,14 +5,13 @@
 
 h1 {
   font-family: helvetica-bold, Courier New, calibri;
-  font-size: %;
+  
 }
 
 .link a:link {
- padding-left: 2px;
   position: absolute;
-  top:  9%;
-  left: 50%;
+  top:  10%;
+  left: 80%;
   font-size: 100%;
   color: white;
   text-shadow: 2px 3px 8px aqua;
@@ -34,7 +33,7 @@ h1 {
 .banner {
   background-image: url("https://cdnassets.hw.net/38/74/a21a44ae43b1bf098efefe2f9c5c/eba816be-3f94-4fab-9827-7361b6464725.jpg");
   background-color: #7BBCC6;
-  height: 218px;
+  height: 219px;
   background-position: center;
   width: 100%;
   background-size: cover;
@@ -46,17 +45,18 @@ h1 {
 }
 
 .banner-title {
+  font-size: 20px;
   float: right;
   position: absolute;
-  top:  39%;
-  left: 35%;
-  font-size: 100%;
+  top:  30%;
+  left: 29%;
   color: white;
-  text-shadow: 2px 3px 8px #000000;
+  text-shadow: 2px 3px 8px black;
   }
   
 .banner-text {
-  margin: 50px;
+  font-size: 25px !important ;
+  margin-right: 20px;
   float: right;
   position: absolute;
   top:  50%;
@@ -66,8 +66,8 @@ h1 {
   }
 
   .roundel {
-  width: 40%;
-  size:  110%;
+  height: auto  !important;
+  width: 200px  !important;
   margin-right: 30%;
   padding: 10px 10px 10px !important;
   position:absolute; 
@@ -83,7 +83,7 @@ h1 {
 }
 
 .job-title {
-  line-height: 1px;
+  line-height: 2.5px !important;
 }
 
 
@@ -112,8 +112,10 @@ h1 {
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 40%;
   box-shadow: 2px 3px 15px black;
+  height: auto;
+  width: 100%;
 }
 
 .contact-info {
@@ -128,15 +130,39 @@ img {
   
 }
 
-@media only screen and (min-width:700px)
-
-.banner-text {
-  width: 100%;
+@media not screen and (min-width:450px){
+  .banner-text {
+    font-size: 19px !important ;
+    margin-right: 10px;
+    margin-left: 60px;
+    top: 55%;
+}
+  .banner-title {
   float: right;
   position: absolute;
-  top:  69%;
-  left: 40%;
-  text-size: 50%;
+  top:  40%;
+  left: 45%;
+  font-size: 15px;
   color: white;
-  text-shadow: 10px 5px 10px #000000;
+  text-shadow: 2px 3px 8px black;
   }
+  .roundel {
+    width: 170px !important ;
+    top: 20px;
+  }
+  
+  .link a:link {
+  position: absolute;
+  top:  10%;
+  left: 70%;
+  font-size: 100%;
+  color: white;
+  text-shadow: 2px 3px 8px aqua;
+}
+}
+
+
+
+
+
+
