@@ -8,19 +8,18 @@ h1 {
   font-size: %;
 }
 
-links {
-  float: right;
+.link a:link {
+ padding-left: 2px;
   position: absolute;
-  top:  39%;
-  left: 35%;
+  top:  9%;
+  left: 50%;
   font-size: 100%;
-  color: white !important;
-  text-shadow: 2px 3px 8px #000000;
-  
+  color: white;
+  text-shadow: 2px 3px 8px aqua;
 }
 
-.links a:hover {
-  color: white;
+.link a:hover {
+  color: aqua;
   text-shadow: 2px;
 }
 
@@ -134,22 +133,3 @@ img {
   color: white;
   text-shadow: 10px 5px 10px #000000;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
