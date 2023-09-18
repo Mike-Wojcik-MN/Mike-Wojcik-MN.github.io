@@ -19,10 +19,17 @@ h1 {
 }
 
 .link a:hover {
-  color: aqua;
-  text-shadow: 2px;
+  color: black;
 }
 
+.link a:visited {
+  color: white;
+ 
+}
+
+.link a:active {
+  color:blue;
+}
 
 .banner {
   background-image: url("https://cdnassets.hw.net/38/74/a21a44ae43b1bf098efefe2f9c5c/eba816be-3f94-4fab-9827-7361b6464725.jpg");
@@ -49,13 +56,13 @@ h1 {
   }
   
 .banner-text {
-  margin: 40px;
+  margin: 50px;
   float: right;
   position: absolute;
   top:  50%;
   left: 28%;
   color: white;
-  text-shadow: 2px 3px 8px #000000;
+  text-shadow: 2px 3px 8px black;
   }
 
   .roundel {
