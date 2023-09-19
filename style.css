@@ -164,7 +164,7 @@ img {
 }
 }
 
-@media not screen and (min-width:350px){
+@media not screen and (min-width:300px){
   .link {
     visibility: hidden;
   }
