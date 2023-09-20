@@ -105,7 +105,7 @@ img {
 
 .experience, .career-info {
   float: center;
-  margin:  15px;
+  margin:  4px;
   padding: 1px;
 }
 
@@ -115,21 +115,23 @@ img {
   outline-width: thin;
   background:  #17141d;
   width: 98%%;
-  padding: 15px;
+  padding: 22px;
   margin: px;
   border-radius: 16px;
   box-shadow: 3px 2px 5px black;
-   background-color: #17141d;
-  animation-name: example;
+  background-color: #17141d;
+  animation-name: fade;
   animation-duration: 3s;
 }
 
-@keyframes example {
+@keyframes fade {
   0%   {background-color: lightgray;}
-  25%  {background-color: black;}
+  25%  {background-color: #696969;}
   50%  {background-color: gray;}
   100% {background-color: #17141d;}
 }
+
+ 
 
 .description {
   font-size: 120%;
@@ -209,6 +211,7 @@ img {
   margin: px;
   }
   
+  
   .banner-title {
     font-size: 90%;
     top: 120px;
@@ -231,12 +234,13 @@ img {
   color: white;
   text-shadow: 2px 3px 8px black;
 }
-  .job-title {
-    font-size: 75%;
+  .job-title: {
+    size: 40px;
+    line-height: 4px;
   }
   
   .description {
-  font-size: 95%;
+  font-size: 95%;  
   }
 }
 
