@@ -14,7 +14,7 @@ h1 {
   top:  10%;
   left: 70%;
   color: white;
-  text-shadow: 2px 3px 8px aqua;
+  text-shadow: 2px 3px 8px black;
 }
 
 .link a:hover {
@@ -23,11 +23,10 @@ h1 {
 
 .link a:visited {
   color: white;
- 
 }
 
 .link a:active {
-  color: aqua;
+  color: blue;
 }
 
 .banner {
@@ -35,17 +34,17 @@ h1 {
   background-color: #7BBCC6;
   height: 219px;
   background-position: center;
-  width: 100%;
+  width: 110%;
   background-size: cover;
   background-repeat: no-repeat;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .banner-title {
-  font-size:23px;
+  font-size: 23px;
   float: right;
   position: absolute;
   top:  35%;
@@ -55,8 +54,8 @@ h1 {
   }
   
 .banner-text {
-  font-size: 25px !important ;
-  margin-right: 20px;
+  font-size: 25px;
+  margin-right: 30px;
   float: right;
   position: absolute;
   top:  55%;
@@ -66,10 +65,10 @@ h1 {
   }
 
   .roundel {
-  height: auto  !important;
-  width: 200px  !important;
+  height: auto;
+  width: 200px;
   margin-right: 30%;
-  padding: 10px 10px 10px !important;
+  padding: 10px 10px 10px;
   position:absolute; 
   }
 
@@ -83,19 +82,16 @@ h1 {
 }
 
 .job-title {
-  line-height: 2.5px !important;
-  margin: 25px !important;
+  line-height: 2.5px;
+  margin: 25px;
 }
 
 
-.experience  {
+.experience {
   float: center;
-  width: 95%;
-  padding: 2px;
-  background-color: #E5F4F6;
-  box-shadow: 5px 2px 15px gray;
-  border-radius: 10px;
-  line-height: 1.6;
+  width: 100%;
+  background-color: black;
+  border-radius: 4px;
 }
 
 
@@ -106,15 +102,21 @@ h1 {
 
 .career-info {
   background: white;
+  width: 100%;
+  padding: px;
+  margin: 4px;
 }
 
 .career-info,  {
-  padding: 2px;
-  margin: 2px;
+  
+}
+
+.description {
+  line-height: 1.6;
 }
 
 img {
-  border-radius: 40%;
+  border-radius: 50%;
   box-shadow: 2px 3px 15px black;
   height: auto;
   width: 100%;
@@ -134,9 +136,9 @@ img {
 
 @media not screen and (min-width:750px){
   .banner-text {
-    font-size: 15px !important ;
-    margin-right: 1px;
-    margin-left: 0px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 1px;
     top: 75%;
     left: 5% 
 }
@@ -144,14 +146,14 @@ img {
   float: right;
   position: absolute;
   top:  64%;
-  left: 40%;
+  left: 38%;
   font-size: 12px; 
   color: white;
   text-shadow: 2px 3px 8px black;
   }
   
   .roundel {
-    width: 130px !important ;
+    width: 130px;
     top: 37px;
   }
   
@@ -160,18 +162,22 @@ img {
   top:  10%;
   left: 3%;
   color: white;
-  text-shadow: 2px 3px 8px aqua;
+  text-shadow: 2px 3px 8px black;
 }
+  .job-title {
+    font-size: 80%;
+  }
 }
 
 @media not screen and (min-width:300px){
   .link {
     visibility: hidden;
   }
+  .job-title {
+  line-height: 2.5px;
+  margin: 25px;
+    
+  }
+  
   
 }
-
-
-
-
-
