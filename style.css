@@ -1,28 +1,32 @@
  body {
-  background: #7BBCC6;
+  background: F0F8FF;
   font-family: calibri, arial, helvetica;
 }
 
 h1 {
   font-family: helvetica-bold, Courier New, calibri;  
 }
+
+h2, {
+  font-size: 190%;
+}
  
 
 .link a:link {
-  float: center;
-  position: absolute;
-  top:  10%;
-  left: 70%;
+ position: -webkit-sticky;
+  position: sticky;
+  top:  5px;
+  left: 95%;
   color: white;
   text-shadow: 2px 3px 8px black;
 }
 
 .link a:hover {
-  color: black;
+  color: gray;
 }
 
 .link a:visited {
-  color: white;
+  color: gray;
 }
 
 .link a:active {
@@ -34,7 +38,7 @@ h1 {
   background-color: #7BBCC6;
   height: 219px;
   background-position: center;
-  width: 110%;
+  width: 120%;
   background-size: cover;
   background-repeat: no-repeat;
   position: -webkit-sticky;
@@ -44,82 +48,94 @@ h1 {
 }
 
 .banner-title {
-  font-size: 23px;
+  font-size: 25px;
   float: right;
   position: absolute;
   top:  35%;
-  left: 20%;
+  left: 17%;
   color: white;
   text-shadow: 2px 3px 8px black;
   }
   
 .banner-text {
-  font-size: 25px;
+  font-size: 23px;
   margin-right: 30px;
   float: right;
   position: absolute;
-  top:  55%;
-  left: 20%;
+  top:  65%;
+  left: 15%;
   color: white;
   text-shadow: 2px 3px 8px black;
   }
 
-  .roundel {
-  height: auto;
-  width: 200px;
+ .roundel {
+  right;
   margin-right: 30%;
   padding: 10px 10px 10px;
   position:absolute; 
   }
 
+img {
+  border-radius: 50%;
+  box-shadow: 2px 3px 15px black;
+  width: 200px;
+  margin: px;
+}
+
 .header {
-  color: white;
-  width: 100%;
-  text-shadow: 1px 3px 10px #000000;
+  color: #17141d;
+  text-shadow:
   text-transform: uppercase;
-  background-color: #7BBCC6;
-  margin: 10px 10px 10px; 
+  background-color: F0F8FF;
+  margin: 10px; 
 }
 
 .job-title {
-  line-height: 2.5px;
-  margin: 25px;
+  color: white;
+  line-height: 3.5px;
+  margin: 10px;
 }
 
 
 .experience {
-  float: center;
   width: 100%;
-  background-color: black;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 
 .experience, .career-info {
-  margin:  2px;
-  padding: 2px;
+  float: center;
+  margin:  15px;
+  padding: 1px;
 }
 
 .career-info {
-  background: white;
-  width: 100%;
-  padding: px;
-  margin: 4px;
+  color: white;
+  outline-style: solid;
+  outline-width: thin;
+  background:  #17141d;
+  width: 98%%;
+  padding: 15px;
+  margin: px;
+  border-radius: 16px;
+  box-shadow: 3px 2px 5px black;
+   background-color: #17141d;
+  animation-name: example;
+  animation-duration: 3s;
 }
 
-.career-info,  {
-  
+@keyframes example {
+  0%   {background-color: lightgray;}
+  25%  {background-color: black;}
+  50%  {background-color: gray;}
+  100% {background-color: #17141d;}
 }
 
 .description {
+  font-size: 120%;
+  padding 10px;
   line-height: 1.6;
-}
-
-img {
-  border-radius: 50%;
-  box-shadow: 2px 3px 15px black;
-  height: auto;
-  width: 100%;
+  font: bold;
 }
 
 .contact-info {
@@ -129,43 +145,98 @@ img {
 
 
 .exp-footer {
-  float: right;
+  float: left;
   width: 70%;
+  color: lightgray;
   
 }
 
-@media not screen and (min-width:750px){
-  .banner-text {
-    font-size: 15px;
-    margin-right: 20px;
-    margin-left: 1px;
-    top: 75%;
-    left: 5% 
+
+@media not screen and (min-width:1050px){
+  
+  .link a:link {
+ position: -webkit-sticky;
+  position: sticky;
+  top:  5px;
+  left: 90%;
+  color: white;
+  text-shadow: 2px 3px 8px black;
 }
-  .banner-title {
+  
+.banner-title {
+  font-size: 25px;
   float: right;
   position: absolute;
-  top:  64%;
-  left: 38%;
-  font-size: 12px; 
+  top:  35%;
+  left: 25%;
   color: white;
   text-shadow: 2px 3px 8px black;
   }
   
-  .roundel {
-    width: 130px;
-    top: 37px;
+.banner-text {
+  font-size: 22px;
+  margin-right: 130px;
+  float: right;
+  position: absolute;
+  top:  65%;
+  left: 22%;
+  color: white;
+  text-shadow: 2px 3px 8px black;
   }
   
+}
+
+
+@media not screen and (min-width:700px){
+  .banner {
+  background-image: url("https://cdnassets.hw.net/38/74/a21a44ae43b1bf098efefe2f9c5c/eba816be-3f94-4fab-9827-7361b6464725.jpg");
+  background-color: #7BBCC6;
+  height: 235px;
+  background-position: center;
+  width: 120%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 0px;
+}
+  
+img {
+  border-radius: 50%;
+  box-shadow: 2px 3px 15px black;
+  width: 135px;
+  margin: px;
+  }
+  
+  .banner-title {
+    font-size: 90%;
+    top: 120px;
+    left: 23px;
+  }
+
+  .banner-text {
+    font-size: 19.5px;
+    margin-right: 80px;
+    margin-left: 15px;
+    top: 62%;
+    left: 2% 
+}
+  
   .link a:link {
-  position: absolute;
-  top:  10%;
-  left: 3%;
+ position: -webkit-sticky;
+  position: sticky;
+  top:  4px;
+  left: 88%;
   color: white;
   text-shadow: 2px 3px 8px black;
 }
   .job-title {
-    font-size: 80%;
+    font-size: 75%;
+  }
+  
+  .description {
+  font-size: 95%;
   }
 }
 
