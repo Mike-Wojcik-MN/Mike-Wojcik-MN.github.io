@@ -11,6 +11,14 @@ h2, {
   font-size: 190%;
 }
  
+.transition {
+  transition: all 800ms;
+}
+
+.desc-hover:hover {
+  transform: scale(1.04);
+  transition: .9s;
+}
 
 .link a:link {
  position: -webkit-sticky;
@@ -22,7 +30,7 @@ h2, {
 }
 
 .link a:hover {
-  color: gray;
+  color: darkblue;
 }
 
 .link a:visited {
@@ -38,7 +46,7 @@ h2, {
   background-color: #7BBCC6;
   height: 219px;
   background-position: center;
-  width: 120%;
+  width: 110%;
   background-size: cover;
   background-repeat: no-repeat;
   position: -webkit-sticky;
@@ -88,13 +96,20 @@ img {
   text-transform: uppercase;
   background-color: F0F8FF;
   margin: 10px; 
+  padding: 2px;
+  text-align: left;
+  font-size: 20px; 
+  font-weight: bold;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
 }
 
 .job-title {
   color: white;
   line-height: 3.5px;
-  margin: 10px;
   white-space: nowrap;
+  float: center;
 }
 
 
@@ -117,7 +132,6 @@ img {
   background:  #17141d;
   width: 98%%;
   padding: 22px;
-  margin: px;
   border-radius: 16px;
   box-shadow: 3px 2px 5px black;
   background-color: #17141d;
@@ -219,6 +233,7 @@ img {
     left: 23px;
   }
 
+  
   .banner-text {
     font-size: 19.5px;
     margin-right: 80px;
@@ -235,14 +250,18 @@ img {
   color: white;
   text-shadow: 2px 3px 8px black;
 }
-  .job-title: {
-    size: 40px;
-    line-height: 4px;
-  }
-  
+ 
   .description {
   font-size: 95%;  
   }
+  
+  .job-title {
+  color: white;
+  font-size: 90%;  
+  line-height: 3.5px;
+  white-space: nowrap;
+  float: center;
+}
 }
 
 @media not screen and (min-width:300px){
